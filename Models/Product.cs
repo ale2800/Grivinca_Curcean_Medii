@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 using SQLite;
 using SQLiteNetExtensions.Attributes;
 
+
 namespace Grivinca_Curcean_Medii.Models
 {
-    public  class CarList
+    public class Product
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
-        [MaxLength(250), Unique]
         public string Description { get; set; }
-        public DateTime Date { get; set; }
-
-        [ForeignKey(typeof(Shop))]
-        public int ShopID { get; set; }
+        [OneToMany]
+        public List<ListProduct> ListProducts { get; set; }
     }
+
 }
