@@ -7,10 +7,22 @@
         <VerticalStackLayout
             Spacing="25"
             Padding="30,0"
-            VerticalOptions="Center">
+            VerticalOptions="Start"
+            
+>
 
+            <Border WidthRequest="100"
+                    HeightRequest="100"
+                    Stroke="Black"
+                    StrokeShape="RoundRectangle 50">
+                <Image
+                    Source="carlogo.png"
+                    HeightRequest="98"
+                    WidthRequest="98"
+                    />
+            </Border>
 
-            <Label
+                <Label
                 Text="Car Rental"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
