@@ -23,7 +23,7 @@ public partial class ShopPage : ContentPage
 
         var options = new MapLaunchOptions
         {
-            Name = "Magazinul meu preferat" };
+            Name = "My favourite car rental" };
        var location = locations?.FirstOrDefault();
         // var myLocation = await Geolocation.GetLocationAsync();
         var myLocation = new Location(46.7731796289, 23.6213886738);
@@ -33,7 +33,7 @@ public partial class ShopPage : ContentPage
         {
             var request = new NotificationRequest
             {
-                Title = "Ai de facut cumparaturi in apropiere!",
+                Title = "RentACar Near You! Hurry up and get a car!",
                 Description = address,
                 Schedule = new NotificationRequestSchedule
                 {

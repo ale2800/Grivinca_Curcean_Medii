@@ -13,7 +13,7 @@
  />
 
         <ShellContent
- Title="Reservations"
+ Title="Wish List"
  ContentTemplate="{DataTemplate local:ListEntryPage}"
  />
         <ShellContent

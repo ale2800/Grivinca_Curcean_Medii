@@ -2,10 +2,10 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Grivinca_Curcean_Medii.ListPage"
-             Title="Reservation Page"
+             Title="Wish List Page"
              xmlns:local="clr-namespace:Grivinca_Curcean_Medii">
     <StackLayout Margin="20">
-        <Editor Placeholder="Enter reservation name"
+        <Editor Placeholder="Enter wish list name"
  Text="{Binding Description}"
  HeightRequest="50" >
             <Editor.Behaviors>
